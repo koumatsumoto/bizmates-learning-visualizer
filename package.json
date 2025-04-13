@@ -9,7 +9,7 @@
   "main": "src/main.mts",
   "scripts": {
     "build": "tsc",
-    "start": "node src/main.mts",
+    "start": "node --env-file=.env src/main.mts",
     "test": "vitest run --coverage",
     "fmt": "prettier --write ."
   },

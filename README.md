@@ -21,6 +21,18 @@ cd bizmates-learning-visualizer
 npm install
 ```
 
+3. 環境変数の設定
+
+`.env.sample`ファイルを`.env`にコピーし、必要な設定を行います：
+
+```bash
+cp .env.sample .env
+```
+
+`.env`ファイルを編集し、以下の環境変数を設定します：
+
+- `BIZMATES_TOKEN`: BizmatesのAPIトークン（Webサイトから取得）
+
 ## 開発
 
 ### ビルド
