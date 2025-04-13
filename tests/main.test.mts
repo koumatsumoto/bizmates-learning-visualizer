@@ -6,7 +6,7 @@ describe("visualizeLearningData", () => {
     const token = "test-token";
     const programId = 1;
     const rankId = 1;
-    
+
     const result = await visualizeLearningData(token, programId, rankId);
     expect(result).toBeDefined();
     expect(typeof result).toBe("object");

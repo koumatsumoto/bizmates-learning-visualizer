@@ -131,4 +131,4 @@ export interface BizmatesApiResponse {
   data: {
     student_history_base_info: BizmatesStudentHistoryBaseInfo;
   };
-} 
+}

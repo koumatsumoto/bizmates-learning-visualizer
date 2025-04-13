@@ -1,6 +1,6 @@
-import type { BizmatesApiResponse } from '../types/bizmates';
+import type { BizmatesApiResponse } from "../types/bizmates";
 
-const BIZMATES_API_URL = 'https://www.bizmates.jp/graphql';
+const BIZMATES_API_URL = "https://www.bizmates.jp/graphql";
 
 export class BizmatesApiClient {
   private readonly token: string;
@@ -16,10 +16,10 @@ export class BizmatesApiClient {
     order?: string | undefined;
   }): Promise<BizmatesApiResponse> {
     const response = await fetch(BIZMATES_API_URL, {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${this.token}`,
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${this.token}`,
       },
       body: JSON.stringify({
         query: `query ($page: Int!, $program_id: Int!, $rank_id: Int, $order: String) {
@@ -223,4 +223,4 @@ export class BizmatesApiClient {
 
     return response.json();
   }
-} 
+}
