@@ -1,5 +1,5 @@
-import { BizmatesApiClient } from "./api/bizmates.mts";
-import type { BizmatesStudentHistoryBaseInfo } from "./types/bizmates.mts";
+import { BizmatesApiClient } from "./bizmates/api.mts";
+import type { BizmatesStudentHistoryBaseInfo } from "./bizmates/types.mts";
 
 /**
  * ビズメイツの学習データを可視化するための関数

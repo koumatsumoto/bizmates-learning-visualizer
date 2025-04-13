@@ -1,4 +1,4 @@
-import type { BizmatesApiResponse } from "../types/bizmates";
+import type { BizmatesApiResponse } from "./types.mts";
 
 const BIZMATES_API_URL = "https://www.bizmates.jp/graphql";
 
