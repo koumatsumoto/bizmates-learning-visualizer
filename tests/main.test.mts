@@ -7,4 +7,4 @@ describe("visualizeLearningData", () => {
     const result = visualizeLearningData(testData);
     expect(result).toEqual(testData);
   });
-}); 
+});

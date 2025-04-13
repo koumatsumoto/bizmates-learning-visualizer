@@ -6,4 +6,4 @@
 export function visualizeLearningData(data: unknown): unknown {
   // TODO: 実装
   return data;
-} 
+}
